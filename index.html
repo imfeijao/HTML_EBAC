@@ -4,28 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de cadastro</title>
-    <style>
-        label {
-            color:black;
-        }
-        body {
-            background-color:brown;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <h1>Formulário de cadastro</h1>
     <form>        
         <label for="Nome" "Nome">Nome</label>
-        <input id="Nome" "Nome" placeholder="Coloque seu nome aqui"/> 
+        <input id="Nome" "Nome" placeholder="nome "/> 
         <label for="E-mail"><br><br>E-mail</label>
-        <input id="E-mail" placeholder="Coloqe seu e-mail aqui">
-        <label for="Senha"><br><br>Senha</label>
-        <input id="Senha" placeholder="Coloque a senha aqui">
+        <input id="E-mail" placeholder="e-mail ">
+        <label style="color: rgb(160, 4, 4);" for="Senha"><br><br>Senha</label>
+        <input id="Senha" placeholder="senha ">
         <br><br>
         <button type="submit"/>
         Enviar
         </button >
-        <button type="reset">Limpar</button>
+        <button class="botao" type="reset">Limpar</button>
     </form>
 </html>
